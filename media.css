@@ -1,0 +1,393 @@
+@media(min-width:820px){ 
+
+
+    header { 
+        font-size: 2rem;
+    }
+    
+    nav { 
+        display: block;
+    }
+
+    nav a { 
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.784);
+        font-size: 2.5rem;
+        padding: 0px 10px;
+        transition: all 0.5s ease;
+        cursor: pointer;
+    }
+
+    nav a:hover { 
+    color: #c97c5d;
+    
+        
+    }
+    .bx {
+        display: none;
+    }
+
+    .menu { 
+        display: none;
+    }
+
+    .hero { 
+        height: 100vh;
+    }
+
+    .hero h2 { 
+        font-size: 7rem;
+    }
+    
+    .hero h3 {
+        
+        font-size: 3rem;
+    }    
+
+    .compre-agora { 
+        font-size: 3rem;
+    }
+
+    .hero img { 
+        width: 700px;
+    }
+
+    .beneficios ul { 
+        flex-direction: column;
+        gap: 100px;
+        justify-content: center;
+    }
+    
+    .beneficios li { 
+        font-size: 4rem;
+    }
+
+    .sobre h2 { 
+        font-size: 3rem;
+    }
+
+    .sobre p {
+        width: 1000px;
+        font-size: 2rem;
+        
+    }
+
+    .sobre img { 
+        width: 700px;
+    }
+
+    .depoimentos { 
+        text-align: center;
+        background-color: #EFE7DC;
+    }
+
+    .depoimentos h2 { 
+        font-size: 4rem;
+        padding-top: 80px;
+    }
+    
+    .cards { 
+        flex-direction: row;
+        height: 50vh;
+        gap: 60px;
+    }
+
+    .card-depoimentos { 
+        height: 350px;
+        align-items: center;
+        justify-content: center;
+        max-width: 350px;
+    }
+
+    .card-depoimentos h3{
+        font-size: 2rem;
+    }
+
+    .card-depoimentos p { 
+        font-size: 1.5rem;
+    }
+
+    .frase-impacto { 
+        font-size: 3rem;
+    }
+
+    .btn-compre { 
+        font-size: 2.5rem;
+    }
+
+    .rodape { 
+        justify-content: space-around;
+    }
+
+    .rodape a { 
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+
+@media(min-width:1024px){ 
+
+    header { 
+        font-size: 1rem;
+    }
+    
+    nav { 
+        display: block;
+    }
+
+    nav a { 
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.784);
+        font-size: 1.5rem;
+        padding: 0px 10px;
+        transition: all 0.5s ease;
+        cursor: pointer;
+    }
+
+    nav a:hover { 
+    color: #c97c5d;
+    }
+
+    .bx {
+        display: none;
+    }
+
+    .menu { 
+        display: none;
+    }
+    
+    .hero { 
+        height: 100vh;
+    }
+
+    .hero h2 { 
+        font-size: 3rem;
+    }
+    
+    .hero h3 {
+        font-size: 1.5rem;
+    }    
+
+    .compre-agora { 
+        font-size: 1rem;
+    }
+
+    .hero img { 
+        width: 300px;
+        padding-top: 50px;
+    }
+
+    .beneficios ul { 
+        flex-direction: column;
+        gap: 50px;
+        justify-content: center;
+    }
+    
+    .beneficios li { 
+        font-size: 2rem;
+    }
+
+    .sobre h2 { 
+        font-size: 1.5rem;
+    }
+
+    .sobre p {
+        width: 1000px;
+        font-size: 1.2rem;
+        
+    }
+
+    .sobre img { 
+        width: 250px;
+    }
+
+    .depoimentos {
+        display: flex; 
+        flex-direction: column;
+        
+        justify-content: center;
+        height: 100vh;
+        gap: 50px;
+        background-color: #EFE7DC;
+    }
+
+    .depoimentos h2 { 
+        font-size: 2.5rem;
+    }
+    
+    .cards { 
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .card-depoimentos { 
+        height: 300px;
+        align-items: center;
+        justify-content: center;
+        max-width: 280px;
+        
+    }
+
+    .card-depoimentos h3{
+        font-size: 1.5rem;
+    }
+
+    .card-depoimentos p { 
+        font-size: 1.2rem;
+    }
+
+    .frase-impacto { 
+        font-size: 1.5rem;
+    }
+
+    .btn-compre { 
+        font-size: 1.0rem;
+    }
+
+    .rodape { 
+        justify-content: space-around;
+        background-color: #C97C5D;
+        padding: 10px 0px;
+    
+    }
+
+    .rodape a { 
+        font-size: 1rem;
+    }
+}
+
+
+
+
+@media(min-width:1280px){ 
+
+    header { 
+        font-size: 1.5rem;
+    }
+    
+    nav { 
+        display: block;
+    }
+
+    nav a { 
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.784);
+        font-size: 2rem;
+        padding: 0px 10px;
+        transition: all 0.5s ease;
+        cursor: pointer;
+    }
+
+    nav a:hover { 
+    color: #c97c5d;
+    }
+
+    .bx {
+        display: none;
+    }
+
+    .menu { 
+        display: none;
+    }
+
+    .hero { 
+        height: 100vh;
+    }
+
+    .hero h2 { 
+        font-size: 5rem;
+    }
+    
+    .hero h3 {
+        font-size: 2.0rem;
+    }    
+
+    .compre-agora { 
+        font-size: 1.5rem;
+    }
+
+    .hero img { 
+        width: 500px;
+        padding-top: 50px;
+    }
+
+    .beneficios ul { 
+        flex-direction: column;
+        gap: 50px;
+        justify-content: center;
+    }
+    
+    .beneficios li { 
+        font-size: 2rem;
+    }
+
+    .sobre h2 { 
+        font-size: 2.5rem;
+    }
+
+    .sobre p {
+        width: 1200px;
+        font-size: 1.2rem;
+        
+    }
+
+    .sobre img { 
+        width: 450px;
+    }
+
+    .depoimentos {
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+        gap: 50px;
+        background-color: #EFE7DC;
+    }
+
+    .depoimentos h2 { 
+        font-size: 2.5rem;
+    }
+    
+    .cards { 
+        flex-direction: row;
+        gap: 100px
+    }
+
+    .card-depoimentos { 
+        height: 300px;
+        align-items: center;
+        justify-content: center;
+        max-width: 280px;
+        
+    }
+
+    .card-depoimentos h3{
+        font-size: 1.5rem;
+    }
+
+    .card-depoimentos p { 
+        font-size: 1.2rem;
+    }
+
+    .frase-impacto { 
+        font-size: 2.5rem;
+    }
+
+    .btn-compre { 
+        font-size: 1.5rem;
+    }
+
+    .rodape { 
+        justify-content: space-around;
+        background-color: #C97C5D;
+        padding: 10px 0px;
+    
+    }
+
+    .rodape a { 
+        font-size: 1.5rem;
+    }
+}
